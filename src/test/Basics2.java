@@ -22,6 +22,7 @@ public class Basics2 {
 		// when
 		// then
 
+		System.out.println("Branching concept - develop");
 		RestAssured.baseURI = "https://rahulshettyacademy.com/";
 		
 		  String response = given().log().all().queryParam("key",
