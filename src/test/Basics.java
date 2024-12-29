@@ -21,7 +21,8 @@ public class Basics {
 		// given
 		// when
 		// then
-
+		//Welcome to REST Assured Learning
+		System.out.println("Welcome to REST Assured Learning");
 		RestAssured.baseURI = "https://rahulshettyacademy.com/";
 		
 		  String response = given().log().all().queryParam("key",
